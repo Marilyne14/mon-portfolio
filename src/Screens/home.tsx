@@ -5,7 +5,7 @@ const Home: React.FC = () => {
     <div className="flex items-center justify-center min-h-screen text-white bg-indigo-600 dark:bg-black">
       <div className="max-w-4xl px-6 py-20 mx-auto text-center">
         <img
-          src="/ashley3.jpg"
+          src="/ashley4.jpg"
           alt="Portrait de Marilyne Ashley"
           className="object-cover w-48 h-48 mx-auto mb-8 border-4 border-white rounded-full"
         />
