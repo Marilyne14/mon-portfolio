@@ -15,6 +15,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
     { to: "#home", label: "Accueil" },
     { to: "#about", label: "À propos" },
     { to: "#competences", label: "Compétences" },
+    { to: "#projets", label: "projets" },
     { to: "#experiences", label: "Expérience" },
     { to: "#contacts", label: "Contact" },
   ];

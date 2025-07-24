@@ -6,6 +6,9 @@ import About from "./Screens/about";
 import Competences from "./Screens/competences";
 import Experiences from "./Screens/Experiences";
 import Contacts from "./Screens/contacts";
+import ProjectsSection from "./Screens/projets";
+import Projects from "./Screens/projets";
+import Projets from "./Screens/projets";
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -45,6 +48,9 @@ const App: React.FC = () => {
         <section id="competences" className="min-h-screen">
           <Competences />
         </section>
+        <section id="projets" className="min-h-screen">
+          <Projets />
+        </section>
         <section id="experiences" className="min-h-screen">
           <Experiences />
         </section>
@@ -56,7 +62,7 @@ const App: React.FC = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className=" w-10 fixed bottom-6 right-6  bg-blue-500 text-white p-3 rounded-full shadow-md hover:bg-blue-600 transition"
+          className="fixed w-10 p-3 text-white transition bg-blue-500 rounded-full shadow-md bottom-6 right-6 hover:bg-blue-600"
           aria-label="Retour en haut"
         >
           ↑

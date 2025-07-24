@@ -130,8 +130,8 @@ const About: React.FC = () => {
                   icon={faEnvelope}
                   className="mr-3 text-blue-500"
                 />
-                <span className="text-gray-700 dark:text-gray-300">
-                  <strong>Email :</strong> marilyneashley407@email.com
+                <span className="text-gray-700 break-all dark:text-gray-300">
+                  <strong>Email :</strong> marilyneashley407@gmail.com
                 </span>
               </div>
               <div className="flex items-center">
