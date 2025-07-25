@@ -81,19 +81,19 @@ const Contacts: React.FC = () => {
             </div>
             <div className="flex mt-8 space-x-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/ashley-marilyne-5a881727b/"
                 className="flex items-center justify-center w-10 h-10 text-white transition bg-blue-500 rounded-full hover:bg-blue-600"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/Marilyne14/mon-portfolio.git"
                 className="flex items-center justify-center w-10 h-10 text-white transition bg-gray-800 rounded-full hover:bg-gray-900"
               >
                 <FontAwesomeIcon icon={faGithubBrand} />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/MarilyneAshley"
                 className="flex items-center justify-center w-10 h-10 text-white transition bg-red-500 rounded-full hover:bg-red-600"
               >
                 <FontAwesomeIcon icon={faTwitterBrand} />
