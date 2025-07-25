@@ -81,13 +81,12 @@ const FormationExperience: React.FC = () => {
                 <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 top-2">
                   <span className="w-3.5 h-3.5 rounded-full bg-blue-600"></span>
                 </span>
-                <div className="p-6 pr-20 ml-8 bg-white rounded-lg shadow-md dark:bg-gray-600">
-                  <div className="flex items-start justify-between">
+                <div className="p-4 sm:p-6 pr-6 sm:pr-20 ml-4 sm:ml-8 bg-white rounded-lg shadow-md dark:bg-gray-600 w-full overflow-hidden">
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
                     <h4 className="text-lg font-semibold leading-tight text-gray-900 dark:text-blue-400">
                       Baccalauréat Scientifique
                     </h4>
-
-                    <span className="ml-4 text-sm text-gray-500 dark:text-white whitespace-nowrap">
+                    <span className="mt-2 sm:mt-0 sm:ml-4 text-sm text-gray-500 dark:text-white whitespace-nowrap">
                       2022 - 2023
                     </span>
                   </div>
@@ -141,23 +140,6 @@ const FormationExperience: React.FC = () => {
                       Participation aux réunions d'équipe et aux revues de code
                     </li>
                   </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative flex items-start top-10 left-5">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 top-2">
-                <span className="w-3.5 h-3.5 rounded-full bg-blue-600"></span>
-              </span>
-              <div className="p-6 pr-20 ml-8 bg-white rounded-lg shadow-md dark:bg-gray-600">
-                <div className="flex items-start justify-between">
-                  <h4 className="text-lg font-semibold leading-tight text-gray-900 dark:text-blue-400">
-                    Baccalauréat Scientifique
-                  </h4>
-
-                  <span className="ml-4 text-sm text-gray-500 dark:text-white whitespace-nowrap">
-                    2022 - 2023
-                  </span>
                 </div>
               </div>
             </div>
