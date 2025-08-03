@@ -58,7 +58,7 @@ const About: React.FC = () => {
                     Développement Backend
                   </h3>
                   <p className="text-base leading-relaxed text-gray-500 max-w-prose dark:text-gray-400">
-                    Conception d'APIs robustes et évolutives avec Node.js,
+                    Conception d'APIs robustes et évolutives avec Laravel,
                     Express et NestJS.
                   </p>
                 </div>
@@ -109,7 +109,7 @@ const About: React.FC = () => {
               Je suis Marilyne Ashley, une Développeuse web et mobile passionnée
               par la Cybersécurité et tout ce qui a trait à l'informatique. Avec
               une formation en Développement Web & Mobile et en Ethical Hacking,
-              je me spécialise dans le Pentest et .
+              je me spécialise dans le Pentest .
             </p>
             <p className="mb-8 leading-relaxed text-gray-600 dark:text-gray-300">
               Mon approche combine une solide compréhension technique avec un
